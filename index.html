@@ -45,7 +45,10 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#about">О нас</a>
-          </li>
+          </li>          
+          <li class="nav-item">
+              <a class="nav-link" href="#price">Прайс</a>
+            </li>
           <li class="nav-item">
             <a class="nav-link" href="#maps">Карта</a>
           </li>
@@ -68,7 +71,7 @@
       </div>
     </div>
   </header>
-
+    
   <!-- About Section -->
   <section id="about" class="about-section text-center">
     <div class="container">
@@ -85,31 +88,89 @@
           </div>
         </div>
       </div>
-      <img src="img/room.jpg" class="img-fluid" alt="">
+      <img src="img/1.jpg" class="img-fluid" alt="">
     </div>
   </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
     <div class="container">
-
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+            <div id="carousel1Controls" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 carousel-img" src="img/3.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="img/2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 carousel-img" src="img/4.jpg" alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel1Controls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel1Controls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Зона комфорта</h4>
-            <p class="text-black-50 mb-0">2 столика для больших компаний(Можно вставить фотки)</p>
+            <h4 class="text-white">Зона комфорта</h4>
+            <p class="text-white mb-0">Отличное место для встреч</p>
           </div>
         </div>
       </div>
 
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-4 col-lg-5">
+              <div class="featured-text text-center text-lg-left">
+                  <h4 class="text-white">Несколько столиков для больших компаний</h4>
+                  <p class="text-white mb-0"></p>
+                </div>
+          </div>
+          <div class="col-xl-8 col-lg-7">
+              <div id="carousel2Controls" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img class="d-block w-100 carousel-img" src="img/5.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block w-100 carousel-img" src="img/6.jpg" alt="Second slide">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel2Controls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel2Controls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+            
+          </div>
+        </div>
+
       <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class="row justify-content-center no-gutters mb-4 mb-lg-5">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="img/13.jpg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
@@ -125,22 +186,22 @@
           </div>
         </div>
       </div>
-<!-- Featured Project Row -->
-<div class="row align-items-center no-gutters mb-4 mb-lg-5">
-  <div class="col-xl-8 col-lg-7">
-    <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
-  </div>
-  <div class="col-xl-4 col-lg-5">
-    <div class="featured-text text-center text-lg-left">
-      <h4>ЛУЧШЕЕ СОБРАНИЕ БРЕНДОВ</h4>
-      <p class="text-black-50 mb-0">В нашем ассортименте представлены как известные бренды и вкусы, так и самые актуальные крафтовые новинки.</p>
-    </div>
-  </div>
-</div>
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/9.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-white text-center text-lg-left">
+            <h4>ЛУЧШЕЕ СОБРАНИЕ БРЕНДОВ</h4>
+            <p class="text-white mb-0">В нашем ассортименте представлены как известные бренды и вкусы, так и самые актуальные крафтовые новинки.</p>
+          </div>
+        </div>
+      </div>
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
+      <div id="price" class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <img class="img-fluid" src="img/12.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
@@ -172,6 +233,7 @@
 
   <!-- Maps section -->
   <section id="maps" class="contact-section bg-black">
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2279.265480905162!2d61.40439809616334!3d55.16113127054477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c5ed4c45a54ff5%3A0x1c8a1ac22649de8c!2z0YPQuy4g0KHQvtCy0LXRgtGB0LrQsNGPLCAzOCwg0KfQtdC70Y_QsdC40L3RgdC6LCDQp9C10LvRj9Cx0LjQvdGB0LrQsNGPINC-0LHQuy4sIDQ1NDA5MQ!5e0!3m2!1sru!2sru!4v1557155765070!5m2!1sru!2sru" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> -->
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6957e5f69348ac7bb7b94f9d47fc019e78f016dc35cd6a5230f2a726f1b1b882&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
   </section>
 
